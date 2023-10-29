@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "email": "olivier@gmail.com",
+      "password": "$2a$10$2xXG1PpzotsiaG8d5MbPbetPfxO1XxdMVYyDmm8x4AKDxj3/nsAWu",
+      "nickName": "小明",
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "content": "今天要刷牙",
+      "id": 1
+    },
+    {
+      "content": "今天要洗臉",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "content": "今天要睡覺",
+      "userId": "1",
+      "id": 3
+    }
+  ]
+}
