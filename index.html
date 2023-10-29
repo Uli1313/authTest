@@ -13,7 +13,7 @@
       // 註冊
       function signUp() {
         axios
-          .post("http://localhost:3000/signup", {
+          .post("https://uli1313.github.io/authTest/signup", {
             email: "olivier@gmail.com",
             password: "bestPassw0rd",
             nickName: "小明",
@@ -28,7 +28,7 @@
       // 登入
       function login() {
         axios
-          .post("http://localhost:3000/login", {
+          .post("https://uli1313.github.io/authTest/login", {
             email: "olivier@gmail.com",
             password: "123456",
           })
@@ -45,7 +45,7 @@
       function addPost() {
         axios
           .post(
-            `http://localhost:3000/600/users/${id}/posts`,
+            `https://uli1313.github.io/authTest/600/users/${id}/posts`,
             {
               content: "今天要睡覺",
             },
@@ -67,7 +67,7 @@
       function updatePassword() {
         axios
           .patch(
-            "http://localhost:3000/600/users/1",
+            "https://uli1313.github.io/authTest/600/users/1",
             {
               password: "123456",
             },
